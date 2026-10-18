@@ -3,7 +3,7 @@ import sys
 
 
 if len(sys.argv) < 3:
-    print("لطفاً دو عدد b و c را وارد کنید. مثال: python quadratic_solver3.py 2 3")
+     quadratic_solver3.py 2 3")
     sys.exit(1) 
 
 b = float(sys.argv[1])

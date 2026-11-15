@@ -1,0 +1,7 @@
+from math import erf, sqrt
+
+def phi(x, mu, sigma):
+    return 0.5 * (1 + erf((x - mu) / (sigma * sqrt(2))))
+
+fraction = phi(820, 1019, 209)
+print(fraction)
